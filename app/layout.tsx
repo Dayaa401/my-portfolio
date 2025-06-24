@@ -14,8 +14,8 @@ import CustomCursor from "./components/CustomCursor"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Vijay's Portfolio",
-  description: "Personal portfolio of Vijay Vardhan Satya Srinivasa Rao Itla",
+  title: "Daya-portfolio",
+  description: "Personal portfolio of Dayanand Allada",
     generator: 'v0.dev'
 }
 

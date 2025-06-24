@@ -16,6 +16,23 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "Daya-portfolio",
   description: "Personal portfolio of Dayanand Allada",
+  openGraph: {
+    title: "Dayanand's Portfolio",
+    description: "Explore Allada Dayanand's skills, projects, and experience.",
+    url: "https://my-portfolio-livid-eta-91.vercel.app", // your deployed URL
+    siteName: "Dayanand Portfolio",
+    images: [
+      {
+        url: "/preview.png", // optional: add this image to /public folder
+        width: 800,
+        height: 600,
+        alt: "Dayanand Portfolio Preview",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+}
     generator: 'v0.dev'
 }
 

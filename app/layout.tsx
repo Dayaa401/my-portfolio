@@ -19,11 +19,12 @@ export const metadata = {
   openGraph: {
     title: "Dayanand's Portfolio",
     description: "Explore Allada Dayanand's skills, projects, and experience.",
-    url: "https://my-portfolio-livid-eta-91.vercel.app", // your deployed URL
+    generator: "v0.dev",
+    url: "https://my-portfolio-livid-eta-91.vercel.app",
     siteName: "Dayanand Portfolio",
     images: [
       {
-        url: "/preview.png", // optional: add this image to /public folder
+        url: "/preview.png",
         width: 800,
         height: 600,
         alt: "Dayanand Portfolio Preview",
@@ -32,9 +33,7 @@ export const metadata = {
     locale: "en_US",
     type: "website",
   },
-}
-    generator: 'v0.dev'
-}
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -52,8 +51,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </ThemeProvider>
       </body>
     </html>
-  )
+  );
 }
-
-
-import './globals.css'

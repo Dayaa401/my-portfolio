@@ -11,7 +11,7 @@ import LoadingBar from "./components/LoadingBar"
 import CustomCursor from "./components/CustomCursor"
 import NetworkBackground from "./components/NetworkBackground"
 import Header from "./components/Header"
-import Chatbot from "./components/Chatbot"
+// import Chatbot from "./components/Chatbot"
 import Footer from "./components/Footer"
 
 export default function Page() {
@@ -33,7 +33,7 @@ export default function Page() {
         <Contact />
         <Footer />
       </div>
-      <Chatbot />
+      {/* <Chatbot /> */}
     </main>
   )
 }

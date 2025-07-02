@@ -62,7 +62,7 @@ const skills = [
     ],
   },
   {
-    category: "Data Science & Machine Learning",
+    category: "Data Science Tools",
     items: [
       { name: "Pandas", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" },
       { name: "NumPy", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" },

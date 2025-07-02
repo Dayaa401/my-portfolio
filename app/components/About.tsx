@@ -52,7 +52,7 @@ export default function About() {
               <span className="absolute bottom-0 right-0 block w-64 h-64 mb-32 mr-4 transition duration-500 origin-bottom-left transform rotate-45 translate-x-24 bg-pink-500 rounded-full opacity-30 group-hover:rotate-90 ease"></span>
               <span className="relative flex items-center text-white">
                 <FileDown className="w-5 h-5 mr-2 group-hover:animate-bounce" />
-                Download Resume
+                View My Resume
               </span>
             </motion.a>
           </div>
